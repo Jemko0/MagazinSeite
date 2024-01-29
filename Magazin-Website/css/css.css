@@ -63,13 +63,13 @@ main {
     background-color: rgb(23, 83, 115);
 }
 
-section {
+.nsection {
     flex: 3;
     background-color: rgb(49, 167, 175);
     padding: 10px;
 }
 
-.container {
+.dcontainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,7 +77,7 @@ section {
 }
 
 .box {
-    background-color: lightgray;
+    background-color: rgb(80, 80, 80);
     color: black;
     border-radius: 10px; 
     padding: 20px;
@@ -89,7 +89,7 @@ section {
 
 }
 
-.container2 {
+.dcontainer2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,7 +97,7 @@ section {
     max-width: 1200px
 }
 
-.content {
+.dcontent {
     text-align: left;
     margin-left: 20px;
 }

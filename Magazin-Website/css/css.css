@@ -128,3 +128,40 @@ main {
     font-size: 20px;
 
 }
+
+.Mbody {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.Mheader {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.Mh1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.Mimg {
+    width: 30%; 
+    height: auto;
+    
+}
+
+.Mdiv{
+    display: flex;
+    padding-top: 2%;
+
+}
+
+.Mdiv2{
+    background-color: #424141;
+    padding: 20px;
+    margin: 20px;
+}
+    

@@ -68,3 +68,63 @@ section {
     background-color: rgb(49, 167, 175);
     padding: 10px;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    background-color: lightgray;
+    color: black;
+    border-radius: 10px; 
+    padding: 20px;
+}
+
+.H1D{
+    font-family: Toppan;
+    font-size: 60px;
+
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 1200px
+}
+
+.content {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.imgD {
+    width: 800px;
+    height: 550px;
+}
+
+.box2 {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(78, 76, 76, 0.423); 
+    display: flex;
+    background-color: lightgray;
+}
+
+.H2D{
+    font-family: toppan;
+    font-size: 40px;
+
+}
+
+.FließtextD{
+    font-family: ltCushion;
+    column-count: 2;
+    column-gap: 20px;
+    font-size: 20px;
+
+}

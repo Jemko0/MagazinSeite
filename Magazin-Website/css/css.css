@@ -133,6 +133,7 @@ main {
 
 }
 
+
 .Mbody {
     margin: 0;
     padding: 0;
@@ -172,6 +173,14 @@ main {
     text-align: left;
 }
     
+<<<<<<< Updated upstream
 .H1D {
     font-family: "ToppanGothic"
 }
+=======
+
+.H1D {
+    font-family: "ToppanGothic"
+}
+
+>>>>>>> Stashed changes

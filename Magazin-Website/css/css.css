@@ -1,0 +1,70 @@
+.mNav {
+display: flex;
+justify-content: space-evenly;
+background-color: rgb(136, 136, 136);
+width: 100%;
+position: relative;
+}
+
+input {
+    align-self: center;
+    padding: 8px;
+    flex: 0.15;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    white-space: nowrap;
+    font-family: "Toppan Bunkyu Midashi Gothic Extrabold"
+    }
+
+@font-face {
+    font-family: ToppanGothic;
+    src: url(../fonts/toppangros.ttf);
+}
+
+.nImg {
+    width: 20%;
+}
+
+.jImg {
+    padding: 2%;
+    width: 30%;
+}
+
+
+main {
+    padding: 2.5%;
+}
+/* Container for flexboxes */
+.ndiv {
+    display: flex;
+}
+
+.jDiv {
+    display: flex;
+    align-items: center;
+    background-color: rgb(38, 87, 130);
+    padding: 15px;
+    margin-top: 1%;
+}
+
+.jBody{
+    background-color: rgb(6, 30, 53);
+    color: rgb(151, 208, 243);
+}
+
+.ndiv {
+    margin-bottom: 1%;
+}
+
+.nBody {
+    background-color: rgb(23, 83, 115);
+}
+
+section {
+    flex: 3;
+    background-color: rgb(49, 167, 175);
+    padding: 10px;
+}

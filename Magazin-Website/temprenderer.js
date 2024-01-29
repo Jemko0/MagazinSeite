@@ -5,6 +5,7 @@ if(title == `URBAN CANVAS`){
   template.innerHTML = `
   <nav class="mNav">
     <h1 id="webTitle"></h1>
+    <input type="button" disabled value="Home" onclick="location.href = '../index.html' ">
     <input type="button" value="History" onclick="location.href = 'Themen/thHistory.html' ">
     <input type="button" value="Styles" onclick="location.href = 'Themen/thStyles.html' ">
     <input type="button" value="Locations" onclick="location.href = 'Themen/thLocations.html' ">

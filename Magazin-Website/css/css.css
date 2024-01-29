@@ -16,12 +16,16 @@ h1 {
     color: white;
     font-size: 40px;
     white-space: nowrap;
-    font-family: "Toppan Bunkyu Midashi Gothic Extrabold"
+    font-family: "ToppanGothic"
     }
+
+p{
+    font-family: "ToppanGothic"
+}
 
 @font-face {
     font-family: ToppanGothic;
-    src: url(../fonts/toppangros.ttf);
+    src: url(../fonts/ToppanBunkyuMidashiGothicStdN-ExtraBold.otf);
 }
 
 .nImg {
@@ -29,8 +33,8 @@ h1 {
 }
 
 .jImg {
-    padding: 2%;
-    width: 30%;
+    padding: 1%;
+    width: 100%;
 }
 
 
@@ -127,4 +131,8 @@ main {
     column-gap: 20px;
     font-size: 20px;
 
+}
+
+.H1D {
+    font-family: "ToppanGothic"
 }
